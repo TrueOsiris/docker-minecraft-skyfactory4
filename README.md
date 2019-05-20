@@ -4,11 +4,8 @@
 This is based on several repos. 
 - itzg/minecraft-server
 - jaysonsantos/docker-minecraft-ftb-skyfactory3
+
 I'm not taking any credit.
-
-Dockerfile for Minecraft Infinity Server
-
-This docker image provides a Minecraft Server, based on Feed The Beast Infinity.
 
 To simply use the latest stable version, run:
 
