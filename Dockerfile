@@ -13,16 +13,16 @@ RUN mkdir /tmp/feed-the-beast && cd /tmp/feed-the-beast && \
  bash -x Install.sh && \
  chown -R minecraft /tmp/feed-the-beast
 
-USER minecraft
-
-EXPOSE 25565
-
 ADD --chown minecraft:minecraft start.sh /start.sh
 RUN chmod +x /start.sh
+
+USER minecraft
 
 VOLUME /data
 ADD server.properties /tmp/server.properties
 WORKDIR /data
+
+EXPOSE 25565
 
 CMD ["/start.sh"]
 
