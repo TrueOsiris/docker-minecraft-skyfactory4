@@ -13,7 +13,7 @@ RUN mkdir /tmp/feed-the-beast && cd /tmp/feed-the-beast && \
  bash -x Install.sh && \
  chown -R minecraft /tmp/feed-the-beast
 
-ADD --chown minecraft:minecraft start.sh /start.sh
+COPY start.sh /start.sh
 RUN chmod +x /start.sh
 
 USER minecraft
