@@ -1,7 +1,3 @@
-# This is based on several repos:
-# - itzg/minecraft-server
-# - jaysonsantos/docker-minecraft-ftb-skyfactory3
-
 FROM java:8
 
 MAINTAINER Tim Chaubet <tim@chaubet.be>
