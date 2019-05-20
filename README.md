@@ -1,7 +1,6 @@
 ## WORK IN PROGRESS
 
 # docker-minecraft-skyfactory4
-===============
     
 This is based on several repos. 
 - itzg/minecraft-server
