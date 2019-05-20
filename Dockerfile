@@ -6,7 +6,8 @@ FROM java:8
 
 MAINTAINER Tim Chaubet <tim@chaubet.be>
 
-RUN apt-get update && apt-get install -y wget unzip
+# RUN apt-get update && apt-get install -y wget unzip
+RUN apt-get install -y wget unzip
 RUN addgroup --gid 1234 minecraft
 RUN adduser --disabled-password --home=/data --uid 1234 --gid 1234 --gecos "minecraft user" minecraft
 
