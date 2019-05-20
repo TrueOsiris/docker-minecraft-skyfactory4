@@ -2,7 +2,7 @@ FROM java:8
 
 MAINTAINER Tim Chaubet <tim@chaubet.be>
 
-RUN apt-get install -y wget unzip
+RUN apt-get install -y wget unzip sudo
 RUN addgroup --gid 1234 minecraft
 RUN adduser --disabled-password --home=/data --uid 1234 --gid 1234 --gecos "minecraft user" minecraft
 
@@ -17,9 +17,8 @@ USER minecraft
 
 EXPOSE 25565
 
-ADD start.sh /start.sh
-RUN chown -R minecraft /start.sh && \
- chmod +x /start.sh
+ADD --chown minecraft:minecraft start.sh /start.sh
+RUN chmod +x /start.sh
 
 VOLUME /data
 ADD server.properties /tmp/server.properties
