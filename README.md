@@ -1,5 +1,10 @@
 # docker-minecraft-skyfactory4
 ===============
+    
+This is based on several repos. 
+- itzg/minecraft-server
+- jaysonsantos/docker-minecraft-ftb-skyfactory3
+I'm not taking any credit.
 
 Dockerfile for Minecraft Infinity Server
 
