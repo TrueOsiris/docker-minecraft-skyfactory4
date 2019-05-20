@@ -6,7 +6,6 @@ FROM java:8
 
 MAINTAINER Tim Chaubet <tim@chaubet.be>
 
-# RUN apt-get update && apt-get install -y wget unzip
 RUN apt-get install -y wget unzip
 RUN addgroup --gid 1234 minecraft
 RUN adduser --disabled-password --home=/data --uid 1234 --gid 1234 --gecos "minecraft user" minecraft
@@ -24,6 +23,7 @@ USER minecraft
 EXPOSE 25565
 
 ADD start.sh /start
+RUN chmod +x /start
 
 VOLUME /data
 ADD server.properties /tmp/server.properties
@@ -31,6 +31,6 @@ WORKDIR /data
 
 CMD /start
 
-ENV MOTD A Minecraft (FTB SkyFactory 4) Server Powered by Docker
+ENV MOTD "A Minecraft (FTB SkyFactory 4) Server Powered by Docker"
 ENV LEVEL world
-ENV JVM_OPTS -Xms2048m -Xmx8192m
+ENV JVM_OPTS "-Xms2048m -Xmx2048m"
