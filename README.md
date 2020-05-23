@@ -1,6 +1,7 @@
 ## WORK IN PROGRESS
 
 # docker-minecraft-skyfactory4
+updated to 4.1.0
     
 This is based on several repos. 
 - itzg/minecraft-server
