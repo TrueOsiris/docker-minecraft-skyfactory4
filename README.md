@@ -2,6 +2,7 @@
 
 # docker-minecraft-skyfactory4
 updated to 4.1.0
+sourcefiles from here: https://www.curseforge.com/minecraft/modpacks/skyfactory-4/files (u can verify the link in the Dockerfile)
     
 This is based on several repos. 
 - itzg/minecraft-server
