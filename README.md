@@ -1,9 +1,9 @@
 # docker-minecraft-skyfactory4
 
-[![Docker Pulls](https://badgen.net/docker/pulls/trueosiris/minecraft-skyfactory4?icon=docker&label=pulls)](https://hub.docker.com/r/trueosiris/minecraft-skyfactory4/) [![Docker Stars](https://badgen.net/docker/stars/trueosiris/minecraft-skyfactory4?icon=docker&label=stars)](https://hub.docker.com/r/trueosiris/minecraft-skyfactory4/) [![Docker Image Size](https://badgen.net/docker/size/trueosiris/minecraft-skyfactory4?icon=docker&label=image%20size)](https://hub.docker.com/r/trueosiris/minecraft-skyfactory4/) [![Docker Build Statu](https://img.shields.io/docker/build/trueosiris/minecraft-skyfactory4)](https://hub.docker.com/r/trueosiris/minecraft-skyfactory4/) ![GitHub last commit](https://img.shields.io/github/last-commit/trueosiris/docker-minecraft-skyfactory4) ![Github forks](https://badgen.net/github/forks/trueosiris/docker-minecraft-skyfactory4)
+[![Docker Pulls](https://badgen.net/docker/pulls/trueosiris/minecraft-skyfactory4?icon=docker&label=pulls)](https://hub.docker.com/r/trueosiris/minecraft-skyfactory4/) [![Docker Stars](https://badgen.net/docker/stars/trueosiris/minecraft-skyfactory4?icon=docker&label=stars)](https://hub.docker.com/r/trueosiris/minecraft-skyfactory4/) [![Docker Image Size](https://badgen.net/docker/size/trueosiris/minecraft-skyfactory4?icon=docker&label=image%20size)](https://hub.docker.com/r/trueosiris/minecraft-skyfactory4/) ![Github Commits](https://badgen.net/github/commits/trueosiris/docker-minecraft-skyfactory4?icon=github&label=commits)] ![GitHub last commit](https://img.shields.io/github/last-commit/trueosiris/docker-minecraft-skyfactory4) ![Github forks](https://badgen.net/github/forks/trueosiris/docker-minecraft-skyfactory4)
 
 Updated to 4.1.0<br>
-Sourcefiles from here: https://www.curseforge.com/minecraft/modpacks/skyfactory-4/files (u can verify the link in the Dockerfile)<br>
+Sourcefiles from here: https://www.curseforge.com/minecraft/modpacks/skyfactory-4/files<br>
 The file redirect leads to https://media.forgecdn.net/files/2787/18/SkyFactory_4_Server_4.1.0.zip
     
 This is based on several repos. <br>
