@@ -9,7 +9,7 @@ This is based on several repos. <br>
 - itzg/minecraft-server<br>
 - jaysonsantos/docker-minecraft-ftb-skyfactory3
 
-I'm not taking any credit.
+I'm not taking any credit. Or at least not much.
 
 To simply use the latest stable version, run:
 
