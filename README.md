@@ -1,11 +1,11 @@
 ## WORK IN PROGRESS
 
 # docker-minecraft-skyfactory4
-updated to 4.1.0
-sourcefiles from here: https://www.curseforge.com/minecraft/modpacks/skyfactory-4/files (u can verify the link in the Dockerfile)
+Updated to 4.1.0<br>
+Sourcefiles from here: https://www.curseforge.com/minecraft/modpacks/skyfactory-4/files (u can verify the link in the Dockerfile)
     
-This is based on several repos. 
-- itzg/minecraft-server
+This is based on several repos. <br>
+- itzg/minecraft-server<br>
 - jaysonsantos/docker-minecraft-ftb-skyfactory3
 
 I'm not taking any credit.
