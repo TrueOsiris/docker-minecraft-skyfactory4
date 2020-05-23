@@ -27,6 +27,6 @@ EXPOSE 25565
 
 CMD ["/start.sh"]
 
-ENV MOTD "A Minecraft (FTB SkyFactory 4) Server Powered by Docker"
+ENV MOTD "A Minecraft (SkyFactory 4.1.0) Server Powered by Docker"
 ENV LEVEL world
 ENV JVM_OPTS "-Xms2048m -Xmx2048m"
