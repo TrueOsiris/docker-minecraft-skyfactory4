@@ -11,6 +11,7 @@ RUN mkdir /tmp/feed-the-beast && cd /tmp/feed-the-beast && \
  wget -c https://media.forgecdn.net/files/2787/18/SkyFactory_4_Server_4.1.0.zip -O SkyFactory_4_Server.zip && \
  unzip SkyFactory_4_Server.zip -d /tmp/feed-the-beast && \
  mv SkyFactory_4_Server_4.1.0/* . && \
+ rmdir SkyFactory_4_Server_4.1.0 && \
  rm SkyFactory_4_Server.zip 
 RUN bash -x Install.sh 
 RUN chown -R minecraft /tmp/feed-the-beast
