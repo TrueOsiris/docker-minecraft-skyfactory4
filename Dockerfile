@@ -7,7 +7,7 @@ RUN addgroup --gid 1234 minecraft
 RUN adduser --disabled-password --home=/data --uid 1234 --gid 1234 --gecos "minecraft user" minecraft
 
 RUN mkdir /tmp/feed-the-beast && cd /tmp/feed-the-beast && \
- wget -c https://minecraft.curseforge.com/projects/skyfactory-4/files/2706808/download -O SkyFactory_4_Server.zip && \
+ wget -c https://media.forgecdn.net/files/2699/759/SkyFactory_4_Server_4.0.1.zip -O SkyFactory_4_Server.zip && \
  unzip SkyFactory_4_Server.zip && \
  rm SkyFactory_4_Server.zip && \
  bash -x Install.sh && \
