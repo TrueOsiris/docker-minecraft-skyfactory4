@@ -12,7 +12,7 @@ RUN mkdir /tmp/feed-the-beast && cd /tmp/feed-the-beast && \
  unzip SkyFactory_4_Server.zip -d /tmp/feed-the-beast && \
  mv -v SkyFactory_4_Server_4.1.0/* . && \
  rmdir -v SkyFactory_4_Server_4.1.0 && \
- rm SkyFactory_4_Server.zip && \
+ rm -v SkyFactory_4_Server.zip && \
  cd /tmp/feed-the-beast && bash -x Install.sh && \
  chown -R minecraft /tmp/feed-the-beast
 
