@@ -6,12 +6,12 @@ Updated to 4.1.0<br>
 You can [mail me](mailto:tim@chaubet.be) if there's a newer version and I don't notice fast enough.<br>
 Sourcefiles from here: https://www.curseforge.com/minecraft/modpacks/skyfactory-4/files<br>
 The file-redirect currently leads to https://media.forgecdn.net/files/2787/18/SkyFactory_4_Server_4.1.0.zip
+
+my git repo: https://github.com/TrueOsiris/docker-minecraft-skyfactory4
     
-This is based on several repos. <br>
+This is based on several other repos. Credits to these fellas! <br>
 - itzg/minecraft-server<br>
 - jaysonsantos/docker-minecraft-ftb-skyfactory3
-
-I'm not taking any credit. Or at least not much.
 
 To simply use the latest stable version, run:
 
