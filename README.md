@@ -5,7 +5,7 @@
 Updated to 4.1.0<br>
 You can [mail me](mailto:tim@chaubet.be) if there's a newer version and I don't notice fast enough.<br>
 Sourcefiles from here: https://www.curseforge.com/minecraft/modpacks/skyfactory-4/files<br>
-The file redirect leads to https://media.forgecdn.net/files/2787/18/SkyFactory_4_Server_4.1.0.zip
+The file-redirect currently leads to https://media.forgecdn.net/files/2787/18/SkyFactory_4_Server_4.1.0.zip
     
 This is based on several repos. <br>
 - itzg/minecraft-server<br>
