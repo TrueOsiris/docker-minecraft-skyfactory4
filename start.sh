@@ -21,4 +21,5 @@ if [[ -n "$OPS" ]]; then
     echo $OPS | awk -v RS=, '{print}' >> ops.txt
 fi
 
-java $JVM_OPTS -jar forge-*-universal.jar nogui
+#java $JVM_OPTS -jar forge-*-universal.jar nogui
+java $JVM_OPTS -jar forge-1.12.2-14.23.5.2854.jar nogui
