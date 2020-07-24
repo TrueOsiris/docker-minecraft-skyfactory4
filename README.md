@@ -19,7 +19,7 @@ To simply use the latest stable version, run:
     
 To use a specific version, use 
   
-    docker run -d -p 25565:25565 trueosiris/minecraft-skyfactory4:4.1.0
+    docker run -d -p 25565:25565 trueosiris/minecraft-skyfactory4:4.2.2
 
 where the default server port, 25565, will be exposed on your host machine. If you want to serve up multiple Minecraft servers or just use an alternate port, change the host-side port mapping such as:
 
