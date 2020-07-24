@@ -7,13 +7,13 @@ RUN addgroup --gid 1234 minecraft
 RUN adduser --disabled-password --home=/data --uid 1234 --gid 1234 --gecos "minecraft user" minecraft
 
 RUN mkdir /tmp/feed-the-beast && cd /tmp/feed-the-beast && \ 
-## pull file redirected from https://www.curseforge.com/minecraft/modpacks/skyfactory-4/download/2787018/file 
- wget -c https://media.forgecdn.net/files/2787/18/SkyFactory_4_Server_4.1.0.zip -O SkyFactory_4_Server.zip && \
- unzip SkyFactory_4_Server.zip -d /tmp/feed-the-beast && \ 
- mv -v SkyFactory_4_Server_4.1.0/* . && \ 
- rmdir -v SkyFactory_4_Server_4.1.0 && \ 
- rm -v SkyFactory_4_Server.zip && \ 
- cd /tmp/feed-the-beast && bash -x Install.sh && \ 
+## pull file redirected from https://www.curseforge.com/minecraft/modpacks/skyfactory-4/download/3012800/file 
+ wget -c https://media.forgecdn.net/files/3012/800/SkyFactory-4_Server_4.2.2.zip -O SkyFactory_4_Server.zip && \
+ unzip SkyFactory_4_Server.zip -d /tmp/feed-the-beast 
+# mv -v SkyFactory_4_Server_4.2.2/* . && \ 
+# rmdir -v SkyFactory_4_Server_4.2.2 && \ 
+# rm -v SkyFactory_4_Server.zip && \ 
+RUN cd /tmp/feed-the-beast && bash -x Install.sh && \ 
  chown -R minecraft /tmp/feed-the-beast
 
 COPY start.sh /start.sh
@@ -29,6 +29,6 @@ EXPOSE 25565
 
 CMD ["/start.sh"]
 
-ENV MOTD "A Minecraft (SkyFactory 4.1.0) Server Powered by Docker"
+ENV MOTD "A Minecraft (SkyFactory 4.2.2) Server Powered by Docker"
 ENV LEVEL world
 ENV JVM_OPTS "-Xms2048m -Xmx2048m"
