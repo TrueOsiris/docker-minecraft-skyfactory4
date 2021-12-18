@@ -8,7 +8,7 @@ RUN apt-get install -y wget unzip && \
 
 RUN mkdir /tmp/feed-the-beast && cd /tmp/feed-the-beast && \ 
 ## pull file redirected from https://www.curseforge.com/minecraft/modpacks/skyfactory-4/download/3012800/file 
- wget -c https://media.forgecdn.net/files/3012/800/SkyFactory-4_Server_4.2.2.zip -O SkyFactory_4_Server.zip && \
+ wget -c https://edge.forgecdn.net/files/3565/687/SkyFactory-4_Server_4_2_4.zip -O SkyFactory_4_Server.zip && \
  unzip SkyFactory_4_Server.zip -d /tmp/feed-the-beast && \
  chmod -R 777 /tmp/feed-the-beast && \
  chown -R minecraft /tmp/feed-the-beast && \
@@ -29,6 +29,6 @@ EXPOSE 25565
 
 CMD ["/start.sh"]
 
-ENV MOTD "A Minecraft (SkyFactory 4.2.2) Server Powered by Docker"
+ENV MOTD "A Minecraft (SkyFactory 4.2.4) Server Powered by Docker"
 ENV LEVEL world
-ENV JVM_OPTS "-Xms2048m -Xmx2048m"
+ENV JVM_OPTS "-Xms4048m -Xmx4048m"
