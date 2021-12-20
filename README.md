@@ -7,7 +7,8 @@ You can [mail me](mailto:tim@chaubet.be) if there's a newer version and I don't 
 Sourcefiles from here: https://www.curseforge.com/minecraft/modpacks/skyfactory-4/files<br>
 The file-redirect currently leads to https://edge.forgecdn.net/files/3565/687/SkyFactory-4_Server_4_2_4.zip
 
-my git repo: https://github.com/TrueOsiris/docker-minecraft-skyfactory4
+git repo: https://github.com/TrueOsiris/docker-minecraft-skyfactory4<br>
+dockerhub repo: https://hub.docker.com/r/trueosiris/minecraft-skyfactory4
     
 This is based on several other repos. Credits to these fellas! <br>
 - itzg/minecraft-server<br>
