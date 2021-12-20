@@ -16,7 +16,7 @@ This is based on several other repos. Credits to these fellas! <br>
 Also thanks to contributer [connorv001](https://github.com/connorv001) and bug reporter / commenter [AmandaJonesAway](https://github.com/AmandaJonesAway) [bitjumper1](https://github.com/bitjumper1) [msshnl](https://github.com/msshnl)
 
 To adapt the server properties, run the container & let it fully install until you see the line<br>
-[Aromabackup-Backup/INFO] [minecraft/DedicatedServer]: [AromaBackup] Server Backup done!
+    [Aromabackup-Backup/INFO] [minecraft/DedicatedServer]: [AromaBackup] Server Backup done!
 Then stop the container, adapt the server.properties file & start it again.
 
 To simply use the latest stable version, run:
