@@ -22,4 +22,4 @@ if [[ -n "$OPS" ]]; then
 fi
 
 #java $JVM_OPTS -jar forge-*-universal.jar nogui
-java $JVM_OPTS -jar forge-1.12.2-14.23.5.2854.jar nogui
+java $JVM_OPTS -jar forge-1.12.2-14.23.5.2860.jar nogui
