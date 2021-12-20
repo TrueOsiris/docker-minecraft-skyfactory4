@@ -1,10 +1,13 @@
 #!/bin/bash
 
 set -e
+forgejar="forge-1.12.2-14.23.5.2860.jar"
 
 cd /data
 
-cp -rf /tmp/feed-the-beast/* .
+if [ ! -f $forgejar ]; then
+	cp -rf /tmp/feed-the-beast/* .
+fi
 echo "eula=true" > eula.txt
 
 #if [[ ! -e server.properties ]]; then
@@ -22,4 +25,4 @@ if [[ -n "$OPS" ]]; then
 fi
 
 #java $JVM_OPTS -jar forge-*-universal.jar nogui
-java $JVM_OPTS -jar forge-1.12.2-14.23.5.2860.jar nogui
+java $JVM_OPTS -jar $forgejar nogui
