@@ -5,14 +5,10 @@ forgejar="forge-1.12.2-14.23.5.2860.jar"
 
 cd /data
 
-if [ ! -f $forgejar ]; then
+if [ ! -f "$forgejar" ]; then
 	cp -rf /tmp/feed-the-beast/* .
 fi
 echo "eula=true" > eula.txt
-
-#if [[ ! -e server.properties ]]; then
-#    cp /tmp/server.properties .
-#fi
 
 if [[ -n "$MOTD" ]]; then
     sed -i "/motd\s*=/ c motd=$MOTD" /data/server.properties
