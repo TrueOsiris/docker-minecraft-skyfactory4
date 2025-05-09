@@ -1,9 +1,14 @@
 # docker minecraft Skyfactory 4
 
-[![Docker Pulls](https://badgen.net/docker/pulls/trueosiris/minecraft-skyfactory4?icon=docker&label=pulls)](https://hub.docker.com/r/trueosiris/minecraft-skyfactory4/) [![Docker Stars](https://badgen.net/docker/stars/trueosiris/minecraft-skyfactory4?icon=docker&label=stars)](https://hub.docker.com/r/trueosiris/minecraft-skyfactory4/) [![Docker Image Size](https://badgen.net/docker/size/trueosiris/minecraft-skyfactory4?icon=docker&label=image%20size)](https://hub.docker.com/r/trueosiris/minecraft-skyfactory4/) ![Github Commits](https://badgen.net/github/commits/trueosiris/docker-minecraft-skyfactory4?icon=github&label=commits) ![GitHub last commit](https://badgen.net/github/last-commit/trueosiris/docker-minecraft-skyfactory4?icon=github&label=last%20commit) ![Github stars](https://badgen.net/github/stars/trueosiris/docker-minecraft-skyfactory4?icon=github&label=stars) ![Github forks](https://badgen.net/github/forks/trueosiris/docker-minecraft-skyfactory4?icon=github&label=forks)
+[![Docker Pulls](https://badgen.net/docker/pulls/trueosiris/minecraft-skyfactory4?icon=docker&label=pulls)](https://hub.docker.com/r/trueosiris/minecraft-skyfactory4/) 
+[![Docker Stars](https://badgen.net/docker/stars/trueosiris/minecraft-skyfactory4?icon=docker&label=stars)](https://hub.docker.com/r/trueosiris/minecraft-skyfactory4/) 
+[![Docker Image Size](https://badgen.net/docker/size/trueosiris/minecraft-skyfactory4?icon=docker&label=image%20size)](https://hub.docker.com/r/trueosiris/minecraft-skyfactory4/) 
+![Github Commits](https://badgen.net/github/commits/trueosiris/docker-minecraft-skyfactory4?icon=github&label=commits) 
+![GitHub last commit](https://badgen.net/github/last-commit/trueosiris/docker-minecraft-skyfactory4?icon=github&label=last%20commit) 
+![Github stars](https://badgen.net/github/stars/trueosiris/docker-minecraft-skyfactory4?icon=github&label=stars) 
+![Github forks](https://badgen.net/github/forks/trueosiris/docker-minecraft-skyfactory4?icon=github&label=forks)
 
 Updated to 4.2.4 and tested succesfully using Curseforge modpack on 2021-dec-20<br>
-You can [mail me](mailto:tim@chaubet.be) if there's a newer version and I don't notice fast enough.<br>
 Sourcefiles from here: https://www.curseforge.com/minecraft/modpacks/skyfactory-4/files<br>
 The file-redirect currently leads to https://edge.forgecdn.net/files/3565/687/SkyFactory-4_Server_4_2_4.zip
 
